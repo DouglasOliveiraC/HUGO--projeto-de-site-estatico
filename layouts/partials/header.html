@@ -1,9 +1,11 @@
 <header>
-    <h1>{{ .Site.Title }}</h1>
+      <h1>{{ .Site.Title }}</h1>
+      
     <nav>
         <ul>
-            <li><a href="{{ relURL "" }}">Home</a></li>
-            <li><a href="{{ relURL "about" }}">Sobre</a></li>
+            <li><a href="{{ relURL "" }}">Início</a></li>
+            <li><a href="{{ relURL "artigos" }}">Artigos</a></li> 
+            <li><a href="{{ relURL "about" }}">Sobre mim</a></li>   
         </ul>
     </nav>
 </header>
